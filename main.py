@@ -11,7 +11,7 @@ templates = Jinja2Templates(directory="templates")
 
 # Database Connection (Replace with your credentials)
 username = urllib.parse.quote_plus("s-md-ahmed")
-password = urllib.parse.quote_plus("Ahmed@1805")
+password = urllib.parse.quote_plus("test123")
 uri = f"mongodb+srv://{username}:{password}@cluster0.izqpyt7.mongodb.net/"
 conn = MongoClient(uri)
 
